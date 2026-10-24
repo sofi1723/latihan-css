@@ -1,0 +1,134 @@
+/* ===================================
+   CONTOH JAWABAN — style.css (Pemula)
+   =================================== */
+
+/* 1. Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D8B995;
+    color: #573528;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* 2. Header */
+#header {
+    background-color: #573528;
+    color: #FFF0D9;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 5px solid #C49A6C;
+}
+
+.logo {
+    color: #E6B879;
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+
+/* 3. Link menu navigasi */
+.menu-link {
+    color: #FFF0D9;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-link:hover {
+    color: #E6B879;
+    text-decoration: underline;
+}
+
+/* 4. Section */
+.section {
+    padding: 30px;
+    margin: 25px auto;
+    max-width: 900px;
+    background-color: #F3E1C8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(87, 53, 40, 0.18);
+}
+
+/* 5. Judul section */
+.judul {
+    color: #70452F;
+    text-align: center;
+    font-size: 26px;
+    border-bottom: 2px solid #A66B3F;
+    padding-bottom: 10px;
+}
+
+/* 6. Tombol */
+.tombol {
+    display: inline-block;
+    background-color: #A66B3F;
+    color: #FFF8EA;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol:hover {
+    background-color: #C49A6C;
+    color: #573528;
+    transform: translateY(-2px);
+}
+
+/* 7. Kotak menu */
+.kotak {
+    background-color: #E8CFAD;
+    padding: 20px;
+    margin: 18px 0;
+    border-radius: 10px;
+    border-left: 5px solid #8B593B;
+    box-shadow: 0 3px 8px rgba(87, 53, 40, 0.12);
+    transition: 0.3s;
+}
+
+.kotak h3 {
+    color: #573528;
+    margin-top: 0;
+    font-size: 21px;
+}
+
+/* 8. Kotak spesial */
+.spesial {
+    background-color: #D4AE82;
+    border-left: 5px solid #70452F;
+    box-shadow: 0 4px 12px rgba(87, 53, 40, 0.18);
+}
+
+/* 9. Tabel */
+.tabel {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #F3E1C8;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.tabel th,
+.tabel td {
+    padding: 14px;
+    border: 1px solid #C49A6C;
+    text-align: left;
+}
+
+.tabel th {
+    background-color: #70452F;
+    color: #FFF0D9;
+    letter-spacing: 1px;
+}
+
+/* 10. Footer */
+#footer {
+    background-color: #573528;
+    color: #E6B879;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #C49A6C;
+}
